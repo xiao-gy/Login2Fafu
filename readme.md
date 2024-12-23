@@ -41,13 +41,13 @@ python login_script.py -u <username> -p <password> -s <suffix> -s5 <socks5_proxy
 ## 示例
 
 ```bash
-python login_script.py -u your_username -p your_password -s your_suffix
+python Login2Fafu.py -u your_username -p your_password -s your_suffix
 ```
 
 如果你需要通过SOCKS5代理进行登录，可以添加`-s5`参数：
 
 ```bash
-python login_script.py -u your_username -p your_password -s your_suffix -s5 "socks5://127.0.0.1:1080"
+python Login2Fafu.py -u your_username -p your_password -s your_suffix -s5 "socks5://127.0.0.1:1080"
 ```
 
 ## 注意事项
